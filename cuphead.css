@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face {
+    font-family: 'cuphead';
+    src: url(fonts/CupheadVogue-ExtraBold.otf);
+}
+
+body {
+    background-color: #ECE8E8;
+}
+
+#cupheadheroes{
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;  /* Centraliza verticalmente */
+}
+#cupheadheroestitulo {
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+
+    font-family: 'cuphead';
+    color: #3d3152;
+    font-size: 3em;
+}
+
+#intro {
+    background-color: #B1E2BE;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.titulos {
+    text-align: center;
+    font-family: 'Funnel sans';
+    font-size: 45px;
+    padding: 50px;
+}
+
+#nomargim {
+    padding: 50px;
+    margin-bottom: -37px;
+}
+
+#section2 {
+    background-color: #FFCF10;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+#imagendefondo {
+   background-color: rgb(51, 51, 51);
+   background-image: url(imagens/cuphead\ and\ mugman.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: top center;
+   color: rgb(0, 0, 0);
+   box-shadow: inset;
+   margin-left: -8px;
+   margin-right: -8px; 
+}
+
+p, li {
+    font-family: 'Funnel sans';
+    font-weight: 600;
+    font-size: 19px;
+    padding-bottom: 30px;
+}
