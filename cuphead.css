@@ -11,13 +11,18 @@
 }
 
 body {
-    background-color: #ECE8E8;
+    background-color: #B3B3BC;
 }
 
 #cupheadheroes{
     display: flex;
     justify-content: center;  /* Centraliza horizontalmente */
     align-items: center;  /* Centraliza verticalmente */
+    background-color: #ECE8E8;
+    margin-bottom: -57px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 #cupheadheroestitulo {
     display: flex;
@@ -27,6 +32,14 @@ body {
     font-family: 'cuphead';
     color: #3d3152;
     font-size: 3em;
+}
+
+main {
+    max-width: 1400px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 #intro {
@@ -56,7 +69,7 @@ p, li {
 }
 
 #section2 {
-    background-color: #B1E2BE;
+    background-color: #F4EAE1;
     margin-left: -8px;
     margin-right: -8px;
     margin-bottom: -16px;
@@ -96,9 +109,21 @@ p, li {
 
 }
 
+#section5 {
+    background-color: #ECE8E8;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -20px;
+    padding: 140px;
+    padding-top: 50px;
+}
+
 div.videocuphead {
     background-color: #FFCF10;
-    margin:0px -20px 30px -20px;
+    margin-top: 0px;
+    margin-right: -8px;
+    margin-bottom: 30px;
+    margin-left: -8px;
     padding: 20px ;
     padding-bottom: 55%;
     position: relative;
@@ -110,5 +135,25 @@ div.videocuphead > iframe {
     left: 22%;
     width: 57%;
     height: 55%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;  /* Centraliza verticalmente */
+    font-size: 20px; 
+    font-family: 'Funnel sans';
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #a7870b;
+    font-size: 22px;
 }
 
