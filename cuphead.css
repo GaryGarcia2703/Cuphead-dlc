@@ -96,3 +96,19 @@ p, li {
 
 }
 
+div.videocuphead {
+    background-color: #FFCF10;
+    margin:0px -20px 30px -20px;
+    padding: 20px ;
+    padding-bottom: 55%;
+    position: relative;
+}
+
+div.videocuphead > iframe {
+    position: absolute;
+    top: 22%;
+    left: 22%;
+    width: 57%;
+    height: 55%;
+}
+
