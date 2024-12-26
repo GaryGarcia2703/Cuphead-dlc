@@ -80,6 +80,7 @@ p, li {
     background-color: #FFCF10;
     margin-left: -8px;
     margin-right: -8px;
+    margin-bottom: -25px;
     padding: 140px;
     padding-top: 50px;
 }
@@ -114,7 +115,7 @@ p, li {
     margin-left: -8px;
     margin-right: -8px;
     margin-top: -20px;
-    padding: 140px;
+    padding: 70px;
     padding-top: 50px;
 }
 
@@ -135,6 +136,59 @@ div.videocuphead > iframe {
     left: 22%;
     width: 57%;
     height: 55%;
+}
+
+#section6 {
+    background-color: #F4EAE1;
+    margin-top: -36px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -16px;
+    padding-bottom: 30px;
+    padding: 70px;
+}
+
+#section6 > h1 {
+    text-align: center;
+    font-family: 'Funnel sans';
+    font-size: 50px;
+    padding: 50px;
+}
+
+#imagendefondo2 {
+    background-color: rgb(51, 51, 51);
+    background-image: url(imagens/cuphead\ mugman\ and\ chalice1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: rgb(0, 0, 0);
+    box-shadow: inset;
+    margin-top: -25px;
+    margin-left: -8px;
+    margin-right: -8px; 
+}
+ 
+ #imagendefondo2 > h2{
+     padding: 350px;
+     color: rgba(0, 0, 0, 0);
+ 
+}
+
+#section7 {
+    background-color: #B1E2BE;
+    margin-top: -36px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -16px;
+    padding-bottom: 30px;
+    padding: 70px;
+}
+
+#section7 >h1{
+    text-align: center;
+    font-family: 'Funnel sans';
+    font-size: 50px;
+    padding: 50px;
 }
 
 footer {
