@@ -191,6 +191,20 @@ div.videocuphead > iframe {
     padding: 50px;
 }
 
+#section8 {
+    background-color: #F4EAE1;
+    margin-top: -36px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -16px;
+    padding-bottom: 30px;
+    padding: 70px;
+}
+
+#videocupheaddlc {
+    background-color: #B1E2BE;
+}
+
 footer {
     display: flex;
     justify-content: center;  /* Centraliza horizontalmente */
