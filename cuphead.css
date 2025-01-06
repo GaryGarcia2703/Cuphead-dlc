@@ -205,6 +205,10 @@ div.videocuphead > iframe {
     background-color: #B1E2BE;
 }
 
+aside {
+    font-family: 'Funnel sans';
+}
+
 footer {
     display: flex;
     justify-content: center;  /* Centraliza horizontalmente */
